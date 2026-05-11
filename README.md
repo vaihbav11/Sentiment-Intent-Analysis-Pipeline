@@ -11,19 +11,10 @@ Dual NLP classifier that analyzes customer feedback by **sentiment** (Positive/N
 ## 🎯 What It Does
 Customer Feedback
 ↓
-
-┌─────────────────────┐
-│ Sentiment Classifier│ → Positive/Negative/Neutral (91% accuracy)
-└─────────────────────┘
-
+Sentiment Classifier → Positive/Negative/Neutral (91% accuracy)
 ↓
-
-┌─────────────────────┐
-│ Intent Classifier   │ → Complaint/Inquiry/Feedback/Support
-└─────────────────────┘
-
+Intent Classifier  → Complaint/Inquiry/Feedback/Support
 ↓
-
 Auto-route to correct team
 
 ---
