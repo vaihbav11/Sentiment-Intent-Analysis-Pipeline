@@ -1,5 +1,5 @@
 import subprocess
-subprocess.run(["pip", "install", "transformers==4.35.0", "scikit-learn", 
+subprocess.run(["pip", "install", "transformers==4.35.0", "scikit-learn",  
                 "pandas", "numpy", "matplotlib", "seaborn"], capture_output=True)
 
 import pandas as pd
