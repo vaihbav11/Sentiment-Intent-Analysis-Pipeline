@@ -2,7 +2,7 @@ import subprocess
 subprocess.run(["pip", "install", "transformers==4.35.0", "scikit-learn",  
                 "pandas", "numpy", "matplotlib", "seaborn"], capture_output=True)
 
-import pandas as pd
+import pandas as pd 
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
